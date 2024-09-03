@@ -1,0 +1,22 @@
+
+1.- Listar todos los productos del que más se vende al que menos, por unidades vendidas, para:
+	a) Todos los datos de la base.
+	b) Agrupado por el año de la fecha de la orden.
+	c) Agrupado por país de la oficina.
+	
+2.- Listar todos los productos del que más se vende al que menos, por monto ($) vendido y con estado de la orden del tipo 'Shipped' o 'Resolved', para:
+	a) Todos los datos de la base.
+	b) Agrupado por país del comprador.
+	c) Agrupado por ID de la oficina.
+
+3.- Hacer una vista del query 1.b.
+
+4.- Hacer una vista del query 2.c.
+
+5.- Hacer una tabla de auditoría, un trigger y un stored-procedure para que cada vez que se inserta una orden nueva, se inserte en la tabla de auditoría la fecha, ciudad y país de destino.
+	Notas: 
+		i) Use la fecha orderDate para las operaciones. 
+		ii) Le puede ser de utilidad: https://www.mysqltutorial.org/mysql-triggers/mysql-after-insert-trigger/
+
+6.- Duplique los productos (tabla products) con los mismos datos, pero con nuevos códigos y nombres. Le puede ser de utilidad el INSERT INTO SELECT https://www.w3schools.com/mysql/mysql_insert_into_select.asp
+
